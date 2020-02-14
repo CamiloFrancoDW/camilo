@@ -40,7 +40,7 @@ body {
 	border-radius:50px;
 	text-align:center;
   font-size:30px;
-	box-shadow: 2px 2px 3px #999;
+	
   z-index:100;
 }
 
@@ -117,7 +117,7 @@ h1, .h1 {
     border-radius:50px;
     text-align:center;
     font-size:30px;
-    box-shadow: 2px 2px 3px #999;
+    
     z-index:100;
   }
   
@@ -149,7 +149,7 @@ h2, .h2 {
     border-radius:50px;
     text-align:center;
     font-size:30px;
-    box-shadow: 2px 2px 3px #999;
+    
     z-index:100;
   }
   
@@ -597,7 +597,7 @@ textarea.form-control {
     border-radius:50px;
     text-align:center;
     font-size:30px;
-    box-shadow: 2px 2px 3px #999;
+    
     z-index:100;
   }
   
