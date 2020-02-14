@@ -28,6 +28,27 @@ body {
   color: #4c4c4c;
 }
 
+.float{
+  font: normal normal normal 30px/1 'FontAwesome'!important;
+  position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+  font: normal normal normal 30px/1 'FontAwesome'!important;
+	margin-top:16px;
+}
+
 ul.skilss {
   margin-left: -22%;
   margin-bottom: 8%;
@@ -873,8 +894,8 @@ blockquote {
 
 .page-title-alt .bg-shape-2 {
   position: absolute;
-  left: 70px;
-  top: 100px;
+  left: 132px;
+  top: 113px;
 }
 
 .page-title-alt .bg-shape-3 {
@@ -887,7 +908,7 @@ blockquote {
 
 .page-title-alt .bg-shape-4 {
   position: absolute;
-  left: 100px;
+  left: 900px;
   bottom: 100px;
 }
 
