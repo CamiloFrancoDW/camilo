@@ -104,7 +104,30 @@ h1, .h1 {
   h1, .h1 {
     font-size: 65px;
   }
+
+  .float{
+    font: normal normal normal 30px/1 'FontAwesome'!important;
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index:100;
+  }
+  
+  .my-float{
+    font: normal normal normal 30px/1 'FontAwesome'!important;
+    margin-top:16px;
+  }
 }
+
+
 
 h2, .h2 {
   font-size: 60px;
@@ -113,6 +136,26 @@ h2, .h2 {
 @media (max-width: 991px) {
   h2, .h2 {
     font-size: 50px;
+  }
+  .float{
+    font: normal normal normal 30px/1 'FontAwesome'!important;
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index:100;
+  }
+  
+  .my-float{
+    font: normal normal normal 30px/1 'FontAwesome'!important;
+    margin-top:16px;
   }
 }
 
@@ -540,6 +583,27 @@ textarea.form-control {
   .hero-area {
     padding: 250px 0 150px;
     overflow: hidden;
+  }
+
+  .float{
+    font: normal normal normal 30px/1 'FontAwesome'!important;
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index:100;
+  }
+  
+  .my-float{
+    font: normal normal normal 30px/1 'FontAwesome'!important;
+    margin-top:16px;
   }
 }
 
