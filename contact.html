@@ -89,12 +89,12 @@
       <div class="col-lg-8 mx-auto">
         <div class="bg-white rounded text-center p-5 shadow-down">
           <!-- <h4 class="mb-80">Contact</h4> -->
-          <form action="#" class="row">
+          <form action="send.php" method="post" name="contacto" id ="contacto" class="row">
             <div class="col-md-6">
               <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4">
             </div>
             <div class="col-md-6">
-              <input type="email" id="email" name="email" placeholder="Email Address" class="form-control px-0 mb-4">
+              <input type="email" id="email" name="email" placeholder="Email Address" class="form-control px-0 mb-4" onBlur="MM_validateForm('email','','NisEmail');return document.MM_returnValue" size="25" maxlength="100" >
             </div>
             <div class="col-12">
               <textarea name="message" id="message" class="form-control px-0 mb-4"
