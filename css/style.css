@@ -1057,6 +1057,12 @@ blockquote {
   width: 32px;
 }
 
+.logoAbout {
+  width: 130px!important;
+  margin-left: 100%;
+}
+
+
 .calaculadoraGrilla {
   width: 10px;
   margin: 5%;
